@@ -1,0 +1,15 @@
+body::before {/*phần này bắt buộc phải thêm vô không thì nó sẽ bị che khuất mất phần đầu showcase*/
+    display: block;
+    content: "";
+    height: 60px;
+}
+@media (min-width:768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+#map {
+    border-radius:10px;
+    width: 100%;
+    height: 100%;
+}
